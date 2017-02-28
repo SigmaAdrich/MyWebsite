@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>闪烁星星</title>
+    <style type="text/css">
+      @media(max-width: 400px){.img{width:100%}}
+      .img{width:70%;padding-left:30%}
+    </style>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="margin-top:50px">
+  <!--导航条-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid ">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header ">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img alt="logo" src="img/hammer.png" style="height:25px;width:25px;">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">我是链接二</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">预留的小菜单 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">懒得</a></li>
+              <li><a href="#">删了</a></li>
+              <li><a href="#">先留着</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">以后有内容</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">就充实了~</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a href="http://www2015.tyut.edu.cn/cn/index.html" target="blank">太原理工大学</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">菜单多的都不知道干嘛了 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+    <div class="container-fluid">
+    <h1 style="text-align:center;">闪烁星星<br><small>2016.8.30</small></h1>
+      <div class="row">
+        <div class="col-md-1 col-xl-1 col-sm-1"></div>
+        <div class="col-md-10 col-xl-10 col-sm-10" style="font-size:16px;">
+        <p>鼠标移入图片，星星闪烁，移出鼠标，星星消失</p>
+            <canvas id="canvas" width="800" height="600" style="margin-left:auto;margin-right:auto;"></canvas>
+
+        </div>
+        <div class="col-md-1 col-xl-1 col-sm-1"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/commonFunctions.js"></script>
+    <script type="text/javascript" src="js/blinkstar.js"></script>
+    <script type="text/javascript" src="js/stars.js"></script>
+  </body>
+</html>

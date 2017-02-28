@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Hello!Internet</title>
+    <style type="text/css">
+      @media(max-width: 400px){.img{width:100%}}
+      .img{width:70%;padding-left:30%}
+    </style>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="margin-top:50px;">
+  <!--导航条-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid ">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header ">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img alt="logo" src="img/hammer.png" style="height:25px;width:25px;">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">我是链接二</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">预留的小菜单 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">懒得</a></li>
+              <li><a href="#">删了</a></li>
+              <li><a href="#">先留着</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">以后有内容</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">就充实了~</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a href="http://www2015.tyut.edu.cn/cn/index.html" target="blank">太原理工大学</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">菜单多的都不知道干嘛了 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+    <div class="container-fluid">
+    <h1 style="text-align:center;">学习Java的几日<br><small>2016.8.12</small></h1>
+      <div class="row">
+        <div class="col-md-1 col-xl-1 col-sm-1"></div>
+        <div class="col-md-10 col-xl-10 col-sm-10" style="font-size:16px;">
+          <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;把Bootstrap框架的说明大概看了看，觉得做我这个博客基本是够了，抄来抄去意思不大了。还是扎扎实实看看Java吧，最近买的Java书也到了，就是下面这本书，推荐的人很多，就先买来看了。因为之前学过C语言的课程，自己也用python写过几个爬虫，所以前面的部分看的还得挺顺利的，也就是按着书上的例子敲一敲，把具体的语法规则记一下。比较喜欢分号结尾，比python的空格好多了，python简直是形式主义的典范，强迫症的最爱啊，之前因为Tab和空格的对应关系可是把我折腾坏了，还有UTF-8/GBK的各种纠结，不过也搞清楚了很多问题。
+          </p>
+          <img src="img/java.jpg" class="img img-responsive "  alt="javabook">
+          <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;对了，还买了一本《高性能网站建设指南》,就是下面这本。总结的挺全面的，对于像我这样的小白很有帮助，也不是很高深，通俗明了。从提高页面加载速度的角度阐述了各种优化的方案。看完之后再看很多大牛的文章至少知道他们在说什么了，对自己的提高蛮大的，还有很多解决问题的方法挺不错的。那个把图标放到一张图里，然后用不同的定位取特定的区域来显示图案，以此来减少对服务器的图片请求数的方法思路真不错。还有之前只知道css样式要放到头部，脚本要放到底部，但是不太清楚为什么，书里面也说的比较明白了。解释了很多提高加载速度的方法并且解释了原因，理解记忆起来就好很多。书也不厚，大概用了两天看完了，有个别的看不懂，因为还没有学到相关的知识，回头可以经常翻翻。有一次拓宽了自己的眼界，要学的东西好多呀~~
+          <img src="img/website.jpg" class="img-responsive img"  alt="websitebook">
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;这页的两个图片大小调了好几下都不满意，在电脑屏幕上感觉太大了，放到手机上感觉又太小了，媒体响应试了几下也没搞出来，</p>
+          <br><br><br>
+
+          
+        </div>
+        <div class="col-md-1 col-xl-1 col-sm-1"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>Hello!Internet</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Default Theme -->
+    <link rel="stylesheet" href="css/owl.theme.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="//cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="//cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body style="margin-top:50px;">
+  <!--导航条-->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid ">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header ">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">
+          <img alt="logo" src="img/hammer.png" style="height:25px;width:25px;">
+        </a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse " id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav ">
+          <li class="active"><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
+          <li><a href="#">我是链接二</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">预留的小菜单 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">懒得</a></li>
+              <li><a href="#">删了</a></li>
+              <li><a href="#">先留着</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">以后有内容</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">就充实了~</a></li>
+            </ul>
+          </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right ">
+          <li><a href="http://www2015.tyut.edu.cn/cn/index.html" target="blank">太原理工大学</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">菜单多的都不知道干嘛了 <span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#">Action</a></li>
+              <li><a href="#">Another action</a></li>
+              <li><a href="#">Something else here</a></li>
+              <li role="separator" class="divider"></li>
+              <li><a href="#">Separated link</a></li>
+            </ul>
+          </li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+    <div class="container-fluid">
+    <h1 style="text-align:center;">一事无成的今天<br><small>2016.8.4</small></h1>
+      <div class="row">
+        <div class="col-md-1 col-xl-1 col-sm-1"></div>
+        <div class="col-md-10 col-xl-10 col-sm-10" style="font-size:16px;">
+          <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;今天起来想着建一个服务器吧，于是开始找apache,下载下来后想的直接扔到C盘算了，但是解压替换什么的总是要授权权限，想的放到D盘应该就不会有这样的问题了吧，结果移动的时候sublime占用着一个文件，有个文件夹没有移到D盘（这是后来才发现的）。然后我找呀找，查看占用的端口，8080...443各种测试，没有占用的啊，怎么都找不到，后来在一个地方看到程序启动的位置不在D盘，还是在C盘。然后改注册表，悲催的是脑残的删除了原来注册表的信息，不记得新信息的格式怎么写的（貌似除了打开文件还有什么操作之类的命令？没看清就删了......）,然后我就放弃了，一上午就过去了。
+          </p>
+          <p>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;下午想的要不就在ubuntu上用django建一个吧。然后......说来话长，原来的ubuntu系统被我搞的装不上pip了，干脆重装一个ubuntu，然后下载了ubuntu，开始找IOS程序做驱动盘，然后就变成找激活码......要不装centos吧，找了一圈都是64位的，就没有32位的吗？为什么他们的电脑都那么高级？我不信！终于找到了32位的，min版的都要900M，完整的要6G，怎么和我想象的不一样啊。还好激活码找到了，还是装ubuntu吧，装的还算顺利，毕竟已经是第N次了。最新版就是好，pip，pip-update顺顺利利的。果然福无双至，祸不单行......
+          </p>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<code>django-admin.py startproject mysite</code>就是这个命令，好多人都不讲怎么设置默认路径，要么讲的我看不懂，折腾了好半天命令行，心都碎了。这时候，有一名大神拯救了水深火热中的我，作为小白，我就喜欢下面这样简单粗暴的答案。</p><br>
+          <p><code>&nbsp;&nbsp;&nbsp;&nbsp;sudo apt-get install python-django-common python-django</code></p><br>
+          <p><code>&nbsp;&nbsp;&nbsp;&nbsp;django-admin startproject mysite</code></p><br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;注意django-admin没有后缀.py</p><br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="http://blog.csdn.net/reallocing1/article/details/51150454" target="blank">原文链接</a></p><br>
+          <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;接下来就好说了，实现了localhost后我发现了一个问题，貌似这个是直接写网页或者数据库的，用来做后台，怎么将我做好的网页放到这个服务器中，在用我买好的域名解析到服务器上实现网页的访问呢？不解......再继续研究。还有，意识到版本控制和后台的作用了，就加了一页网页我就觉得来回改链接信息什么的麻烦了，万一漏了个什么的，网站大了又不可能都记住，以后数据量大了需要批量处理，需要写一些后台程序出来。加油！</p>
+        </div>
+        <div class="col-md-1 col-xl-1 col-sm-1"></div>
+      </div>
+    </div>
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.1.0.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

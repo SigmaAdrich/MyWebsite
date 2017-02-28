@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="CN">
+<head>
+	<meta charset="utf-8"/>
+	<title>Image Gallery</title>
+	<link rel="stylesheet" href="css\Test01.css">
+</head>
+<body>
+<h1>Javascript DOM 编程艺术 Test_page</h1>
+	<h1>Snapshots</h1>
+	<ul id="imagegallery">
+		<li>
+			<a href="img\0.png" title="the first picture">
+				<img src="img\0.png" alt="the first picture">
+			</a>
+		</li>
+		<li>
+			<a href="img\1.jpg" title="the second picture" onclick="showPic(this);return false;">
+				<img src="img\1.jpg" alt="the second picture">
+			</a>
+		</li>
+		<li>
+			<a href="img\2.jpg" title="the third picture" onclick="showPic(this);return false;">
+				<img src="img\2.jpg" alt="the third picture">
+			</a>
+		</li>
+	</ul>
+	<img id="placeholder" src="img\huiyuan.jpg" title="the zero picture" alt="my image gallery">
+	<p id="description">Choose an image.</p>
+	<p >本页实践下这本书里的Javascript练习</p>
+	<script src="js\Test01.js"></script>
+</body>
+
+</html>
